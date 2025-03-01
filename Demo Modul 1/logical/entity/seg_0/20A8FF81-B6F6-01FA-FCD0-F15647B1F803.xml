@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20A8FF81-B6F6-01FA-FCD0-F15647B1F803" name="Pembayaran">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:44:33 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Pembayaran" id="5DBFF0A2-4ECB-E623-62AF-A5A7D85066A7">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:55:15 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Sewa" id="E534DF1E-897B-93EA-865D-3CF3BE5245A2">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:55:27 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal Pembayaran" id="7BE91879-0E91-FC23-4029-73DED27CD094">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:55:36 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Metode Pembayaran" id="E3B27FD0-7F7C-14DD-307F-58DADF369C5C">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:55:48 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah Bayar" id="8BBBAFA8-CBFD-C5DD-4A04-9F6A6062A6A6">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:56:00 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status Pembayaran" id="192DD3B0-B120-EF67-FC70-DAEDAB9674A5">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:56:11 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26EDED6A-F2CF-4361-B7D0-5B5E58C95F52" name="Pembayaran PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:55:23 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DBFF0A2-4ECB-E623-62AF-A5A7D85066A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

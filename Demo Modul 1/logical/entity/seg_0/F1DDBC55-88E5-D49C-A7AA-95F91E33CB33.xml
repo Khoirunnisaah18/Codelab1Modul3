@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1DDBC55-88E5-D49C-A7AA-95F91E33CB33" name="Penyewa">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:44:12 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Penyewa" id="FCD90F53-E41A-6C0F-81E4-BD55609AF12C">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:51:48 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="3ADBB8E4-8EEB-9A11-DB3F-22AC6A5B7FE1">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:52:03 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor HP" id="FADFA7EF-E59C-234E-D72B-B5DD11B78EEF">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:52:12 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="7C9BF6F7-2EB4-8BD9-28E1-BF530202C46A">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:52:23 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pekerjaan" id="36735AF9-C0A1-C987-EBB9-3D8E501CFAC7">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:52:34 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis Kelamin" id="3A0D85F8-9647-5071-DA7C-68329EA21BDD">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:52:48 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD2CBDA9-3517-36CB-83C4-405295EB151C" name="Penyewa PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:51:54 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCD90F53-E41A-6C0F-81E4-BD55609AF12C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

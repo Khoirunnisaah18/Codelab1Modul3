@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B84970B3-05FE-3A4D-C787-C4C8A1A16DE3" name="Kamar">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:44:00 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Kamar" id="E1F0B75C-C643-FE99-AE27-2CC5D391D16A">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:50:09 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Kos" id="885AFC51-BCD8-11F0-2280-9DBF83EDDECA">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:50:27 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor Kamar" id="7E131455-A87C-C0FD-687D-320E0558CBF8">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:50:41 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipe Kamar" id="8DFFEB84-8008-3542-C179-7FD8666D2D30">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:50:53 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="D3C7E78B-6F29-C56B-4A7D-A440ABC2E780">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:51:10 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga Sewa" id="1D598C32-12B2-2D5C-1E71-E4F758F3605B">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:51:34 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92FFAFB8-5775-56EB-F80A-02B4FE8E3908" name="Kamar PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-01 14:50:20 UTC</createdTime>
+<ownerDesignName>Demo Modul 1</ownerDesignName>
+<engineerTo>
+<item key="A577E6E1-B2E0-5A70-203D-A80E35E1DB03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1F0B75C-C643-FE99-AE27-2CC5D391D16A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

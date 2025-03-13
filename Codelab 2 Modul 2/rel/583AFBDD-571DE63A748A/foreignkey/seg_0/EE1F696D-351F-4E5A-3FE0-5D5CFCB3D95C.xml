@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE1F696D-351F-4E5A-3FE0-5D5CFCB3D95C" containerWithKeyObject="AAB83B5A-F1A5-D93B-19C7-41E603B7016A" localFKIndex="C125B2FE-E558-0861-2FB3-2757D0668468" name="Mobil_Dealer_FKv2">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 21:30:44 UTC</createdTime>
+<generatorID>1B77112F-33C0-D304-604C-DD2A1CADC119</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<referredTableLongName>Dealer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C81728C-FC9C-3C94-DFD0-11DD36ECF2DB</referredTableID>
+<keyObject>77E6DFDB-189A-ADA5-8A04-230CF2C40DEB</keyObject>
+<referredKeyID>77E6DFDB-189A-ADA5-8A04-230CF2C40DEB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dealer</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

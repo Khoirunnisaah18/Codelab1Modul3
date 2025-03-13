@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C81728C-FC9C-3C94-DFD0-11DD36ECF2DB" name="Dealer">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>2D7793F3-154B-1194-41B9-31640E3CF2DF</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dealer" id="DE1EBB2F-1EFE-F597-FDE2-6FACA171EE13">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>7183927C-0C61-5910-626B-74A9C21B80E0</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_dealer" id="CEF65238-6BE8-023F-70A3-0736523D4EB3">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>E5EC243A-55D6-D303-09D4-7D02BC491931</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokasi" id="316D30A0-FA02-14EB-B8AF-155F46BE833E">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>2B0259E6-173A-6DA0-14A4-FFA0D31FB7A3</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77E6DFDB-189A-ADA5-8A04-230CF2C40DEB" name="Dealer_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>E7AA37E7-AE7B-28A6-5D5D-0BCF08AEE3CA</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE1EBB2F-1EFE-F597-FDE2-6FACA171EE13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

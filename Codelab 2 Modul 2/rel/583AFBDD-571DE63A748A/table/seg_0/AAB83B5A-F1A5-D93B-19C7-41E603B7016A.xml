@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAB83B5A-F1A5-D93B-19C7-41E603B7016A" name="Mobil">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>B4F491D5-77A8-E26E-5DF0-13CF6009F6F8</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mobil" id="8872E70E-D8C2-7CDB-93A0-B16CF1FC765D">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>0AEA8806-07A1-B331-9BE5-C336665FCF26</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merk_mobil" id="99B781B2-B921-4B92-E12A-33D98107E778">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>3C8C2905-7DA6-71B3-8F06-6CE392CCE52E</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_mobil" id="FA4980E2-3201-34D6-F372-3870809DFF01">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>FDC1C831-6A3E-AF81-7150-748B682B75FA</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="49ED770A-EB25-7069-AFF1-36DD6D2C74D7">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>A004C873-B848-2485-4F2E-7641827CCE63</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dealer_ID_Dealer" id="324861DF-B087-69EA-DC88-889EA4898E8D">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>1D2202EB-CE32-5DC6-32A4-411194CD1935</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5869F763-A9B7-0F09-C80C-DEB537A5ECC2" referredColumn="DE1EBB2F-1EFE-F597-FDE2-6FACA171EE13"/>
+</associations>
+</Column>
+<Column name="Dealer_id_dealer2" id="93DE266B-CCD3-39C6-813B-4FD9FB5C237E">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 21:30:44 UTC</createdTime>
+<generatorID>22095A72-8FA0-FE94-6294-6D07B48420FE</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE1F696D-351F-4E5A-3FE0-5D5CFCB3D95C" referredColumn="DE1EBB2F-1EFE-F597-FDE2-6FACA171EE13"/>
+</associations>
+</Column>
+<Column name="harga" id="E5C38F47-C67B-B0C8-06B3-0E82FA71A903">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 21:30:44 UTC</createdTime>
+<generatorID>809DE8E6-07F3-6970-9241-C4FF4FF831CA</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB59DE00-7DDB-7AEF-4E32-49F4427BC446" name="Mobil_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>C167ADAC-CD36-9FD1-A208-B0C9C6187F0D</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8872E70E-D8C2-7CDB-93A0-B16CF1FC765D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1BA1189-CA04-D256-E892-3ED472C190C7" name="Mobil_Dealer_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 20:21:57 UTC</createdTime>
+<generatorID>4E5A051D-FE3C-355E-41B2-B61CBB4842DB</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="324861DF-B087-69EA-DC88-889EA4898E8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C125B2FE-E558-0861-2FB3-2757D0668468" name="Mobil_Dealer_FKv2">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 21:30:44 UTC</createdTime>
+<generatorID>1B77112F-33C0-D304-604C-DD2A1CADC119</generatorID>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93DE266B-CCD3-39C6-813B-4FD9FB5C237E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

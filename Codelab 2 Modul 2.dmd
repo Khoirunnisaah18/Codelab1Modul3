@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Codelab 2 Modul 2" id="CDD6F934-BF4A-94C7-C042-8478BA5E9B35" version="3.5">
+<createdBy>NISA</createdBy>
+<createdTime>2025-03-13 18:22:39 UTC</createdTime>
+<ownerDesignName>Codelab 2 Modul 2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CDD6F934-BF4A-94C7-C042-8478BA5E9B35</designId>
+</OSDM_Design>

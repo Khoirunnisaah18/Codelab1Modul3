@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AA7BD3C-B824-734D-4072-A1AABA5E8F32" name="Peminjaman">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>9DE024D2-C610-BD30-EF50-5CC13D59DCC4</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="No_Peminjaman" id="79BC09FE-0F8F-DADE-52D2-2C158FCEA76F">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>3F8D5FB6-1E60-31B8-4A56-DB04DA4ECBF4</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Peminjaman" id="414DE62D-9D1C-0109-8AF4-FB1FB43AB068">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>1C849943-2480-A6F7-842B-12A19879348A</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Kembali" id="CC35C446-943A-2A95-E950-9B249E25FBF0">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>C8E12F7F-A404-E1F1-DA38-5E0B05BA2BEA</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Anggota" id="4DA0C287-B3C1-9E6D-A32D-70842E77695E">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>CF7815E2-D6BA-6412-B1E9-4C1B4385D6FD</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anggota_ID_Anggota" id="E44997D0-4B0C-1590-3A52-DF4B8310C2A2">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>F7850790-2EDF-FEB0-BE30-CDC011EEC9A8</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5146AF9D-006C-935F-0F0F-44BBAC28B777" referredColumn="08F4089E-20D0-79F9-71D2-0FFF2FCFF7D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F820298-2A7C-6484-E264-58C93380DB3B" name="Peminjaman_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>8CD3CFC5-6CCA-98F3-852C-912DE7ECECC4</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79BC09FE-0F8F-DADE-52D2-2C158FCEA76F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B615BA80-FEBD-9B15-A923-5D3C26C958E5" name="Peminjaman_Anggota_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>08BC51AE-BC45-A54A-AE15-5E2E3E26B270</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E44997D0-4B0C-1590-3A52-DF4B8310C2A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

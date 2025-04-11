@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0768A74C-172B-D49D-C992-1C0A994E9016" containerWithKeyObject="A7E256D7-4C4A-E7DD-5F59-AE3E164308F1" localFKIndex="AAB7C3F4-BB52-3CBF-8783-EC3AE69C68CE" name="Detail_Peminjaman_Buku_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>D9B29893-1505-3B13-4DFD-815DAB78442E</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<referredTableLongName>Buku</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0515962E-DBC9-8FFC-A1E5-EF386352271C</referredTableID>
+<keyObject>96DF58CE-7C25-BFD2-06EC-D5A85928CC17</keyObject>
+<referredKeyID>96DF58CE-7C25-BFD2-06EC-D5A85928CC17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Kode_Buku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

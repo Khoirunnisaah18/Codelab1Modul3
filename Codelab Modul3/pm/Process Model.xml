@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2248EC9C-1C9A-A896-2AFD-C40E4F3E6F80">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 14:56:13 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

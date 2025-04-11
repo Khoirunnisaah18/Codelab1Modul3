@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0515962E-DBC9-8FFC-A1E5-EF386352271C" name="Buku">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>BBD8BCFA-FEC3-921F-DE79-D57F83CA043F</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kode_Buku" id="AE052DDE-3077-1F5C-AF24-B0F1C8C69758">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>732909B5-1A5F-73EE-D654-D69B12CCD433</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul_Buku" id="E1829AEC-61E2-E97D-79B0-81B1CEF6FAB1">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>482651E7-0886-DA54-D033-82399D78217D</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pengarang" id="DA1A7FEC-8105-2F1C-D2DC-36F22AEB0FC3">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>EBDB56B8-8D17-E6E3-BFBA-FC32EFF8691A</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategori_Buku" id="44010D69-BFD4-4304-B290-DDC530519F05">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>8336E1E6-78D0-91C9-D23A-2D705F7F0AC6</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96DF58CE-7C25-BFD2-06EC-D5A85928CC17" name="Buku_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>872B77E3-913C-4987-4859-8842BA65EC91</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE052DDE-3077-1F5C-AF24-B0F1C8C69758"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80026B46-32E2-6AE7-9A76-903E428370CE" name="Detail_Peminjaman">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:14:50 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No_Peminjaman" id="1A880532-EB33-9F8C-E441-8B30402D88EA">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:24:53 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode_Buku" id="4A56E818-83E5-1CFC-0422-9A1E4EC01A22">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:25:14 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah Pinjam" id="E8681846-822B-D0AA-8E4D-4EE9B3A8402E">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:25:41 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Peminjaman1" id="82CDAFFE-2CA5-FD2B-560C-234AB0F58821">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 17:54:54 UTC</createdTime>
+<generatorID>EC2E8777-34BE-8BD2-E3A8-88549C79C8A2</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<referedAttribute>3F8D5FB6-1E60-31B8-4A56-DB04DA4ECBF4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode_Buku1" id="7987CFE8-5108-0B01-67CE-66576DAC178F">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 17:55:09 UTC</createdTime>
+<generatorID>D9B29893-1505-3B13-4DFD-815DAB78442E</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<referedAttribute>732909B5-1A5F-73EE-D654-D69B12CCD433</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95E8B75D-2230-1734-E668-0445D03E0840" name="Detail_Peminjaman PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:15:40 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

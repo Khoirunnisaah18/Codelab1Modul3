@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBD8BCFA-FEC3-921F-DE79-D57F83CA043F" name="Buku">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:04:41 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kode_Buku" id="732909B5-1A5F-73EE-D654-D69B12CCD433">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:05:26 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Judul_Buku" id="482651E7-0886-DA54-D033-82399D78217D">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:05:35 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pengarang" id="EBDB56B8-8D17-E6E3-BFBA-FC32EFF8691A">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:05:50 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategori_Buku" id="8336E1E6-78D0-91C9-D23A-2D705F7F0AC6">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:06:13 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="872B77E3-913C-4987-4859-8842BA65EC91" name="Buku PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 16:05:22 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>732909B5-1A5F-73EE-D654-D69B12CCD433</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

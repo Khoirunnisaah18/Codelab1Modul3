@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="D9B29893-1505-3B13-4DFD-815DAB78442E">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 17:55:09 UTC</createdTime>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<engineerTo>
+<item key="5B9DEB11-2BD8-2D97-0FFB-1EF1526DC7A7" value="true"/>
+</engineerTo>
+<sourcePk>872B77E3-913C-4987-4859-8842BA65EC91</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBD8BCFA-FEC3-921F-DE79-D57F83CA043F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80026B46-32E2-6AE7-9A76-903E428370CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

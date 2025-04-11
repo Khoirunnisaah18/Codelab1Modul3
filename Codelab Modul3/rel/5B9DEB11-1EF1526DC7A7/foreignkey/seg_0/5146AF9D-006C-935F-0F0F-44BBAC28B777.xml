@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5146AF9D-006C-935F-0F0F-44BBAC28B777" containerWithKeyObject="8AA7BD3C-B824-734D-4072-A1AABA5E8F32" localFKIndex="B615BA80-FEBD-9B15-A923-5D3C26C958E5" name="Peminjaman_Anggota_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>08BC51AE-BC45-A54A-AE15-5E2E3E26B270</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<referredTableLongName>Anggota</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9189B30F-63C5-80F2-66AE-BBAA781EC824</referredTableID>
+<keyObject>F3EA3917-7F19-1049-46A4-8D2838FDED7C</keyObject>
+<referredKeyID>F3EA3917-7F19-1049-46A4-8D2838FDED7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Anggota</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

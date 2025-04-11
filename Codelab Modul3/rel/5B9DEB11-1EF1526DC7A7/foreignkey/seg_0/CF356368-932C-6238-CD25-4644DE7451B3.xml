@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF356368-932C-6238-CD25-4644DE7451B3" containerWithKeyObject="A7E256D7-4C4A-E7DD-5F59-AE3E164308F1" localFKIndex="8B5AB1C1-1AF7-BDF2-9A1B-4B7DCD717C63" name="Detail_Peminjaman_Peminjaman_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>EC2E8777-34BE-8BD2-E3A8-88549C79C8A2</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<referredTableLongName>Peminjaman</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AA7BD3C-B824-734D-4072-A1AABA5E8F32</referredTableID>
+<keyObject>8F820298-2A7C-6484-E264-58C93380DB3B</keyObject>
+<referredKeyID>8F820298-2A7C-6484-E264-58C93380DB3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>No_Peminjaman</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

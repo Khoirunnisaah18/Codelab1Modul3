@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7E256D7-4C4A-E7DD-5F59-AE3E164308F1" name="Detail_Peminjaman">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>80026B46-32E2-6AE7-9A76-903E428370CE</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="No_Peminjaman" id="D02C7679-3002-7CA9-C44B-8017FBC515D1">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>1A880532-EB33-9F8C-E441-8B30402D88EA</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kode_Buku" id="39C9E0E2-DF28-D027-B909-034BFBAB1029">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>4A56E818-83E5-1CFC-0422-9A1E4EC01A22</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah_Pinjam" id="8F7DAA11-14C6-9B39-27CA-C9AAC5677893">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>E8681846-822B-D0AA-8E4D-4EE9B3A8402E</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peminjaman_No_Peminjaman" id="9B9B3E5E-B0F3-9D8F-19D8-355E17655586">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>82CDAFFE-2CA5-FD2B-560C-234AB0F58821</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF356368-932C-6238-CD25-4644DE7451B3" referredColumn="79BC09FE-0F8F-DADE-52D2-2C158FCEA76F"/>
+</associations>
+</Column>
+<Column name="Buku_Kode_Buku" id="AA7B72C2-9062-FB88-D0B9-FFA8290815C4">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>7987CFE8-5108-0B01-67CE-66576DAC178F</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0768A74C-172B-D49D-C992-1C0A994E9016" referredColumn="AE052DDE-3077-1F5C-AF24-B0F1C8C69758"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BD8F5B5-43B6-857C-2B2E-50C05F4E221D" name="Detail_Peminjaman_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>95E8B75D-2230-1734-E668-0445D03E0840</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="8B5AB1C1-1AF7-BDF2-9A1B-4B7DCD717C63" name="Detail_Peminjaman_Peminjaman_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>EC2E8777-34BE-8BD2-E3A8-88549C79C8A2</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B9B3E5E-B0F3-9D8F-19D8-355E17655586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAB7C3F4-BB52-3CBF-8783-EC3AE69C68CE" name="Detail_Peminjaman_Buku_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-11 18:12:09 UTC</createdTime>
+<generatorID>D9B29893-1505-3B13-4DFD-815DAB78442E</generatorID>
+<ownerDesignName>Codelab Modul3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA7B72C2-9062-FB88-D0B9-FFA8290815C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

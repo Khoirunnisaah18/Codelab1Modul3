@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Demo Modul 3" id="553CA2F1-7BD6-366B-0100-1586E9F82524" version="3.5">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 15:47:57 UTC</createdTime>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>553CA2F1-7BD6-366B-0100-1586E9F82524</designId>
+</OSDM_Design>

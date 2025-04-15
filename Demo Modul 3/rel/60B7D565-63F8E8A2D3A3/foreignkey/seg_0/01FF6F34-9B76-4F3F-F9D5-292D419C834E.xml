@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="01FF6F34-9B76-4F3F-F9D5-292D419C834E" containerWithKeyObject="61043880-42D8-625E-FE40-715F54F3DAE4" localFKIndex="DD189F7B-1120-A554-9435-3AEA4C98D841" name="Tamu_Reservasi_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:10:21 UTC</createdTime>
+<generatorID>B4BF87EF-C52F-BB98-F4EA-D3304B854B0E</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<referredTableLongName>Reservasi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBAE8287-B1C8-E010-C574-5A0ACB5A271F</referredTableID>
+<keyObject>A1FC5AD9-34F7-8B4E-3D70-B781FD80BD0D</keyObject>
+<referredKeyID>A1FC5AD9-34F7-8B4E-3D70-B781FD80BD0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>No_Reservasi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14E7D162-D1C5-98D2-B325-5DB56A966C53" containerWithKeyObject="9CEAF04D-7736-5802-B77A-6CD49A6F9B86" localFKIndex="516B71DD-2E00-8F79-3A15-31761F682D94" name="Relation_1_Reservasi_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:10:21 UTC</createdTime>
+<generatorID>199D5C28-1189-F6B6-60DB-AF51C793867A</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<referredTableLongName>Reservasi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBAE8287-B1C8-E010-C574-5A0ACB5A271F</referredTableID>
+<keyObject>A1FC5AD9-34F7-8B4E-3D70-B781FD80BD0D</keyObject>
+<referredKeyID>A1FC5AD9-34F7-8B4E-3D70-B781FD80BD0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>No_Reservasi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14FF50A3-E9A5-D39F-1CD2-E9408AC38883" name="Kamar">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>5FF57B6A-D645-FBF5-747B-10981BDB4624</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kode_Kamar" id="95A36A4A-2173-3647-08A6-0CBB01D81940">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>9B0B2152-C98E-7E7D-1D02-A0C4D7220690</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipe_Kamar" id="7FD4C122-0041-170C-97C7-063460DB92B3">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>C0440E13-72D4-D4EA-4E22-1DF820413248</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga_PerMalam" id="A25F7FC4-2F95-9CF2-1B51-83687F036A7A">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>544338C3-3CF6-FB7A-5CEE-AF96ACA97255</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DFF1E80-525E-6E6C-8A4E-9E3809316572" name="Kamar_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>DC583446-DB48-5078-13C9-722C86D08FC8</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95A36A4A-2173-3647-08A6-0CBB01D81940"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

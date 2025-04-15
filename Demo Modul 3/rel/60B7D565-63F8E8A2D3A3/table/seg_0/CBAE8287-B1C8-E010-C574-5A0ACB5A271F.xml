@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBAE8287-B1C8-E010-C574-5A0ACB5A271F" name="Reservasi">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>62B89CB8-173B-1728-8FF0-C119E1C88F1D</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="No_Reservasi" id="2E73249B-B8E1-A923-9935-713B4A94CD0F">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>C65A1228-11A7-46C8-E489-AD59A60A58B5</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Tamu" id="922D05D6-ADB8-BF2F-19D5-0ECC1781E364">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>926B74D1-8F23-EDD1-0BFA-14AFFE9DAD88</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kode_Kamar" id="D7038FDE-EC85-5948-716E-350819954200">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>49C09DE1-EB32-33CB-DABE-749368EEF73E</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Checkin" id="CDE1B5C4-EBC9-2612-F982-3431D671BE05">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>492F502E-6C04-F010-9A9A-66247BF64F14</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Checkout" id="A21EC33C-DB3A-5A20-998E-7427E86C7F40">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>606AE2B8-7A9D-6721-0C31-FAF17D22EFC8</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah_Malam" id="A665BB05-297C-5408-0A19-B0A0A751D080">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>02F9493C-E2D5-B0EF-86EB-67C7421E1B00</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1FC5AD9-34F7-8B4E-3D70-B781FD80BD0D" name="Reservasi_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>6CF69D09-5D98-DF0B-58FB-B637EC765B16</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E73249B-B8E1-A923-9935-713B4A94CD0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

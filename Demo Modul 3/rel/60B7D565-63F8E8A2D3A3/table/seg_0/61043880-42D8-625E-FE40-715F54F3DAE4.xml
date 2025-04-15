@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61043880-42D8-625E-FE40-715F54F3DAE4" name="Tamu">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>04920131-2373-2BF7-521A-09FCF2A27FE9</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Tamu" id="09C8ED99-D394-A259-0B39-A102662F4787">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>DF706F47-FC13-9DE5-A035-9E30BF9E4D46</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Tamu" id="3C283137-68E3-8CB0-2E11-4E5E81174FCC">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>EE0F8D11-A601-5286-E612-FB9189552C0C</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reservasi_No_Reservasi" id="F83F1404-1321-64FE-E7C7-A0BA771A0329">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:10:21 UTC</createdTime>
+<generatorID>A788568F-BE8D-138C-A503-88FAED4B4AF2</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01FF6F34-9B76-4F3F-F9D5-292D419C834E" referredColumn="2E73249B-B8E1-A923-9935-713B4A94CD0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AE0BB39-2DCB-CCB4-7668-9077359C296E" name="Tamu_PK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:09:27 UTC</createdTime>
+<generatorID>5D46EFB8-A814-CBDD-AE7F-7DAF72B5A020</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C8ED99-D394-A259-0B39-A102662F4787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD189F7B-1120-A554-9435-3AEA4C98D841" name="Tamu_Reservasi_FK">
+<createdBy>NISA</createdBy>
+<createdTime>2025-04-15 19:10:21 UTC</createdTime>
+<generatorID>B4BF87EF-C52F-BB98-F4EA-D3304B854B0E</generatorID>
+<ownerDesignName>Demo Modul 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F83F1404-1321-64FE-E7C7-A0BA771A0329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
